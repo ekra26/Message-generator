@@ -1,0 +1,40 @@
+* {
+  font-family: "Nunito Sans";
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  padding: 3px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.button {
+  background-color: #87ebca;
+  color: rgb(20, 3, 3);
+  cursor: pointer;
+  padding: 0px;
+  width: 200px;
+  height: 80px;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.message {
+  padding: 19px;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
